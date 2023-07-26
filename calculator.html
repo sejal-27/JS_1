@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="calculator.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="calculator.css" />
     <title>Calculator</title>
-</head>
-<body>
-    <div class="conatiner">
-        <div class="calculator">
-            <div class="input-field">
-                <input type="text" placeholder="0">
-                
-            </div>
-            <div class="button-field">
-                <div>
-                <input type="button" value="7">
-                </div>
-            </div>
+  </head>
+  <body>
+    <div class="container d-flex align-items-center justify-content-center">
+      <div class="calculator">
+        <div class="input-field">
+          <input type="text" placeholder="0" />
         </div>
+        <div class="button-field">
+          <div>
+            <input type="button" value="7" onclick="displayvalue+='7'"/>
+            <input type="button" value="8" />
+            <input type="button" value="9" />
+            <input type="button" value="*" />
+          </div>
+          <div>
+            <input type="button" value="4" />
+            <input type="button" value="5" />
+            <input type="button" value="6" />
+            <input type="button" value="-" />
+          </div>
+          <div>
+            <input type="button" value="1" />
+            <input type="button" value="2" />
+            <input type="button" value="3" />
+            <input type="button" value="+" />
+          </div>
+          <div>
+            <input type="button" value="0" />
+            <input type="button" value="00" />
+            <input type="button" value="=" />
+          </div>
+        </div>
+      </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="calculator.js"></script>
-</body>
+  </body>
 </html>
