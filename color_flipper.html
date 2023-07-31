@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="color_flipper.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <title>color flipper</title>
+  </head>
+  <body>
+    <div
+      class="container d-flex flex-row align-items-center justify-content-center"
+    >
+      <button
+        class="btn text-decoration-none d-flex flex-column align-items-center justify-content-center bg-black rounded-circle"
+        id="btn"
+      >
+        <div class="main_title p-3 text-white text-uppercase">
+          Click me to change the
+          <span class="text-white fw-semibold fs-5"
+            >background colors<br
+          /></span>
+          <hr />
+          <span class="text-white fs-3 fw-bold" id="color_name"></span>
+        </div>
+      </button>
+    </div>
+
+    <script src="color_flipper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
